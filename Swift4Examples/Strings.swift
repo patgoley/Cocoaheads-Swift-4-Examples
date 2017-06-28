@@ -17,10 +17,6 @@ let longString = """
 
 """
 
-
-let reverse = longString.reversed()
-
-
 func enumerateString() {
     
     for char in longString {
@@ -28,3 +24,5 @@ func enumerateString() {
         print(char)
     }
 }
+
+let reverseString = longString.reversed()

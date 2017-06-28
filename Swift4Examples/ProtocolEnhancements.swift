@@ -9,15 +9,38 @@
 import UIKit
 
 
-struct Song {
-    
-    let name: String
-    let duration: TimeInterval
-}
+// Subclass and protocol conformance constraint
+
+typealias TableViewController = UIViewController & UITableViewDelegate & UITableViewDataSource
+
+
+// Constrained inheritance
 
 protocol Playlist: Sequence where Element == Song {
     
     
 }
 
-typealias TableViewController = UIViewController & UITableViewDelegate & UITableViewDataSource
+struct Song {
+    
+    let name: String
+    let duration: TimeInterval
+}
+
+struct Album: Playlist {
+    
+    let songs: [Song]
+}
+
+struct RadioStation: Playlist {
+    
+    typealias Iterator = AnyIterator<Song>
+    
+    func makeIterator() -> AnyIterator<Song> {
+        
+        return AnyIterator { () -> Element? in
+            
+            return Song(name: "randomly chosen song", duration: 9000)
+        }
+    }
+}

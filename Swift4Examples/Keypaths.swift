@@ -39,8 +39,10 @@ func testKVO() {
     
     let navController = UINavigationController()
     
-    let _ = navController.observe(\UINavigationController.viewControllers) { (navController, change) in
+    let observer = navController.observe(\UINavigationController.viewControllers.count) { (navController, change) in
         
-        print("new view controllers: ", navController.viewControllers)
+        print("view controller count: ", navController.viewControllers.count)
     }
+    
+    //observer unregistered automatically on deinit
 }
