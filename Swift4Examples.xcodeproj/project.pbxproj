@@ -17,6 +17,7 @@
 		8E011FA51F032B7000AD20C6 /* ProtocolEnhancements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E011FA41F032B7000AD20C6 /* ProtocolEnhancements.swift */; };
 		8E011FA71F032F6900AD20C6 /* Keypaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E011FA61F032F6900AD20C6 /* Keypaths.swift */; };
 		8E011FA91F03356500AD20C6 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E011FA81F03356500AD20C6 /* Strings.swift */; };
+		8EC2D9CB1F0467C900A9A0DF /* FilterDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2D9CA1F0467C900A9A0DF /* FilterDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8E011FA41F032B7000AD20C6 /* ProtocolEnhancements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEnhancements.swift; sourceTree = "<group>"; };
 		8E011FA61F032F6900AD20C6 /* Keypaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypaths.swift; sourceTree = "<group>"; };
 		8E011FA81F03356500AD20C6 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8EC2D9CA1F0467C900A9A0DF /* FilterDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				8E011FA61F032F6900AD20C6 /* Keypaths.swift */,
 				8E011FA81F03356500AD20C6 /* Strings.swift */,
 				8E011FA41F032B7000AD20C6 /* ProtocolEnhancements.swift */,
+				8EC2D9CA1F0467C900A9A0DF /* FilterDictionary.swift */,
 				8E011F861F03238D00AD20C6 /* Main.storyboard */,
 				8E011F891F03238E00AD20C6 /* Assets.xcassets */,
 				8E011F8B1F03238E00AD20C6 /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 				8E011FA71F032F6900AD20C6 /* Keypaths.swift in Sources */,
 				8E011FA31F03239B00AD20C6 /* Codable.swift in Sources */,
 				8E011FA91F03356500AD20C6 /* Strings.swift in Sources */,
+				8EC2D9CB1F0467C900A9A0DF /* FilterDictionary.swift in Sources */,
 				8E011FA51F032B7000AD20C6 /* ProtocolEnhancements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +442,7 @@
 				8E011F9E1F03238E00AD20C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E011F9F1F03238E00AD20C6 /* Build configuration list for PBXNativeTarget "Swift4ExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +451,7 @@
 				8E011FA11F03238E00AD20C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

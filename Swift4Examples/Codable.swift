@@ -55,8 +55,6 @@ func deserializeAddress() -> Address? {
     return try? JSONDecoder().decode(Address.self, from: jsonData)
 }
 
-
-
 func serializeDictionary() -> Data {
     
     let dictionary = [

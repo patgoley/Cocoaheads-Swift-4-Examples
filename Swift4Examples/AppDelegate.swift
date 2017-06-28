@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         testKeyPath()
         
+        testFilter()
+        
         print("all good")
         
         return true

@@ -29,7 +29,14 @@ struct Song {
 
 struct Album: Playlist {
     
+    typealias Iterator = Array<Song>.Iterator
+    
     let songs: [Song]
+    
+    func makeIterator() -> IndexingIterator<Array<Song>> {
+        
+        return songs.makeIterator()
+    }
 }
 
 struct RadioStation: Playlist {
