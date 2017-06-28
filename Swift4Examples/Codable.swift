@@ -60,7 +60,7 @@ func deserializeAddress() -> Address? {
 func serializeDictionary() -> Data {
     
     let dictionary = [
-        "key": "value"
+        "key": 123
     ]
     
     return try! JSONEncoder().encode(dictionary)
